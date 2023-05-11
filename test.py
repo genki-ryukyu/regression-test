@@ -1,6 +1,7 @@
 import dataset
 import regression
 import importlib
+importlib.reload(regression)
 
  
 X, Y = dataset.load_linear_example()
@@ -14,5 +15,8 @@ print(model.x)
 #regressionのver.2テスト
 model.fit(X,Y)
 print(model.theta)
+
+#regressionのver.3テスト
+print(model.predict(X))
 
 

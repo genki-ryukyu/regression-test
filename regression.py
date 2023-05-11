@@ -11,6 +11,6 @@ class LinearRegression:
         
     
     def predict(self,x):
-        pass
+        return np.dot(x,self.theta)
     def score(self,x,y):
         pass
