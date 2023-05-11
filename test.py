@@ -19,4 +19,8 @@ print(model.theta)
 #regressionのver.3テスト
 print(model.predict(X))
 
+#regressionのver.4テスト
+print(model.score(X,Y))
+
+
 
