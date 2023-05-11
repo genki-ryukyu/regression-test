@@ -1,7 +1,7 @@
 import numpy as np
 
 class LinearRegression:
-    x = 1
+    x = None
     theta = None
     y = None
     
